@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-pedant",
+  "version": "0.0.0",
+  "description": "Pedant preset for eslint",
+  "license": "MIT",
+  "repository": "blond/eslint-config-pedant",
+  "author": "Andrew Abramov <mail@blond.im> (github.com/blond)",
+  "keywords": [
+    "eslint",
+    "config",
+    "preset",
+    "errors",
+    "variables",
+    "pedant",
+    "es",
+    "js",
+    "lint"
+  ],
+  "main": "index.js",
+  "files": [
+    "lib/**",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 4.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "2.3.0"
+  },
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint ."
+  }
+}
