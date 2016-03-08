@@ -10,5 +10,5 @@ var pattern2 = /foo   bar/; // In this regular expression,
 var pattern3 = /^abc[]/;  // Empty character classes in regular expressions do not match anything
                           // and can result in code that may not work as intended.
 
-/*eslint no-invalid-regexp: 2*/
+/*eslint no-invalid-regexp: [2, { allowConstructorFlags: ['u', 'y'] }]*/
 var pattern4 = new RegExp('\\');
