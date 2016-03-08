@@ -1,8 +1,8 @@
-/*eslint no-func-assign: 2*/
+/*eslint no-func-assign: "error"*/
 function foo() {}
 foo = bar;
 
-/*eslint no-ex-assign: 2*/
+/*eslint no-ex-assign: "error"*/
 try {
     // code
 } catch (e) {

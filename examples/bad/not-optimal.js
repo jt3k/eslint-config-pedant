@@ -1,4 +1,4 @@
-/*eslint no-inner-declarations: 2*/
+/*eslint no-inner-declarations: "error"*/
 for (var i = 0; i < 10; ++i) {
     // This feature will be announced 10 times.
     function doSomethingElse () {
@@ -6,13 +6,13 @@ for (var i = 0; i < 10; ++i) {
     }
 }
 
-/*eslint no-constant-condition: 2*/
+/*eslint no-constant-condition: "error"*/
 if (false) {
     // This function is never executed.
     doSomething();
 }
 
-/*eslint no-unreachable: 2*/
+/*eslint no-unreachable: "error"*/
 function fn() {
     var x = 1;
 
@@ -20,10 +20,10 @@ function fn() {
     x = 3; // This will never execute.
 }
 
-/*eslint no-empty: 2*/
+/*eslint no-empty: "error"*/
 if (foo) {} // Empty block statements, while not technically errors, but they can cause confusion when reading code.
 
-/*eslint no-extra-boolean-cast: 2*/
+/*eslint no-extra-boolean-cast: "error"*/
 var truth = new Boolean(true);
 
 if (!!truth) { // This variable already coerced to a Boolean.
