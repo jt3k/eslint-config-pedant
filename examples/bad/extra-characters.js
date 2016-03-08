@@ -5,7 +5,7 @@ var obj = {
                  // it encounters trailing commas in JavaScript.
 };
 
-/*eslint no-extra-semi: 2*/
+/*eslint no-extra-semi: 1*/
 var x = 5;; // The second semicolon is unnecessary.
 
 /*eslint no-extra-parens: 1*/
