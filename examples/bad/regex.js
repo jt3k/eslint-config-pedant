@@ -1,8 +1,8 @@
-/*eslint no-control-regex: 1*/
+/*eslint no-control-regex: 2*/
 var pattern1 = /\\x1f/; // These characters are rarely used in JavaScript strings so a regular expression
                         // containing these characters is most likely a mistake.
 
-/*eslint no-regex-spaces: 1*/
+/*eslint no-regex-spaces: 2*/
 var pattern2 = /foo   bar/; // In this regular expression,
                             // it's very hard to tell how many spaces are intended to be matched.
 
