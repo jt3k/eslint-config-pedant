@@ -17,8 +17,18 @@ An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-co
 Install
 -------
 
+You'll first need to install `ESLint`:
+
 ```
-$ npm install --save-dev eslint-config-pedant
+$ npm install eslint --save-dev
+```
+
+**Note**: You may install ESLint globally using the `-g` flag.
+
+Next, install `eslint-config-pedant`:
+
+```
+$ npm install eslint-config-pedant --save-dev
 ```
 
 Usage
@@ -34,7 +44,7 @@ Add this to your `.eslintrc` file:
 }
 ```
 
-*Note: We omitted the `eslint-config-` prefix since it is automatically assumed by ESLint.*
+**Note**: We omitted the `eslint-config-` prefix since it is automatically assumed by ESLint.
 
 You can override settings from the shareable config by adding them directly into your `.eslintrc` file.
 
