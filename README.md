@@ -48,6 +48,30 @@ Add this to your `.eslintrc` file:
 
 You can override settings from the shareable config by adding them directly into your `.eslintrc` file.
 
+FAQ
+---
+
+* [Whether this config is suitable for me?](#whether-this-config-is-suitable-for-me)
+* [Why this config does not contain stylistic rules?](#why-this-config-does-not-contain-stylistic-rules)
+
+### Whether this config is suitable for me?
+
+Most likely this config will suite you, because it contains only those rules which are necessary to find errors, typos and potentially dangerous code.
+
+To make sure that this config is right for you:
+
+* Look at the [examples](./examples/bad/) of **incorrect** code.
+* Look at the [rules](./index.js) from this config. The detailed information about each rule you can find on the [eslint](http://eslint.org/docs/rules/) website.
+* Try this config in your project. If you agree with those errors then this config is for you.
+
+### Why this config does not contain stylistic rules?
+
+This config intentionally does not limit your choice of code style.
+
+If you want to check code style of your my code you can add [stylistic rules](http://eslint.org/docs/rules/#stylistic-issues) to your config in your project.
+
+But better pay attention to the [JSCS](http://jscs.info/) linter/formatter. In my opinion this tool is more convenient for linting your code style.
+
 License
 -------
 
