@@ -1,9 +1,33 @@
+/*eslint no-eval: "error"*/
+var obj = { x: "foo" },
+    key = "x",
+    value = eval("obj." + key);
+
+/*eslint no-implied-eval: "error"*/
+setTimeout("alert('Hi!');", 100);
+
+/*eslint no-new-func: "error"*/
+var x = new Function("a", "b", "return a + b");
+
+/*eslint no-self-assign: "error"*/
+foo = foo;
+
+/*eslint no-unused-expressions: ["error", {"allowShortCircuit": true, "allowTernary": true}]*/
+n + 1; // This is a valid JavaScript expression,
+       // but isn’t actually used.
+
 /*eslint no-inner-declarations: "error"*/
 for (var i = 0; i < 10; ++i) {
     // This feature will be announced 10 times.
     function doSomethingElse () {
         // ...
     }
+}
+
+/*eslint no-loop-func: "error"*/
+for (var i=10; i; i--) {
+    var a = function() { return i; };
+    a();
 }
 
 /*eslint no-constant-condition: "error"*/

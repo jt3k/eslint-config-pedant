@@ -6,8 +6,36 @@ if (user.jobTitle = 'manager') {
 /*eslint valid-typeof: "error"*/
 typeof foo === 'fucntion' // The typo in the 'function' word.
 
+/*eslint no-self-compare: "error"*/
+if (x === x) {
+    x = 20;
+}
+
 /*eslint no-sparse-arrays: "error"*/
 var colors = ['red',, 'blue']; // extra comma
+
+/*eslint array-callback-return: "error"*/
+[1, 2, 3].map(function(value) {
+    value + 1; // forget to write `return`
+}); // [undefined, undefined, undefined]
+
+/*eslint curly: "error"*/
+if (foo) foo++; bar++; // forget to wrap `bar++`
+
+/*eslint no-redeclare: "error"*/
+var a = 3;
+var a = 10;
+
+/*eslint no-new: "error"*/
+new Person();
+
+/*eslint no-return-assign: "error"*/
+function doSomething() {
+    return foo = bar + 2; // The true intent was to do a comparison (`==` or `===`).
+}
+
+/*eslint no-throw-literal: "error"*/
+throw "error";
 
 /*eslint no-unexpected-multiline: "error"*/
 var bar = 'bar'

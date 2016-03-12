@@ -15,5 +15,18 @@ try {
 
 console.log(err) // err is 'problem', not 'x'
 
-/*eslint no-shadow-restricted-names: 2*/
+/*eslint no-shadow-restricted-names: "error"*/
 function NaN() {}
+
+/*eslint no-case-declarations: "error"*/
+switch (foo) {
+    case 1:
+        let x = 1;
+        break;
+    default:
+        break;
+}
+// The `x` variable is available here.
+
+/*eslint no-empty-pattern: "error"*/
+var { a: {} } = foo; // doesn't create any variables
