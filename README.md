@@ -10,7 +10,7 @@ eslint-config-pedant
 [travis]:       https://travis-ci.org/blond/eslint-config-pedant
 [test-img]:     https://img.shields.io/travis/blond/eslint-config-pedant.svg?label=tests
 
-An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs).
+An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) to find errors, typos and potentially dangerous code.
 
 ![pedant](https://cloud.githubusercontent.com/assets/2225579/13544540/31939a3a-e288-11e5-8fd2-f6a86190e037.jpg)
 
