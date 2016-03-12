@@ -48,7 +48,7 @@ function fn() {
 if (foo) {} // Empty block statements, while not technically errors, but they can cause confusion when reading code.
 
 /*eslint no-extra-boolean-cast: "error"*/
-var truth = new Boolean(true);
+var truth = true;
 
 if (!!truth) { // This variable already coerced to a Boolean.
     // ...

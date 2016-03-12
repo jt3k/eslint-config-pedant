@@ -1,6 +1,5 @@
 /*eslint no-undef: 2*/
-var a = someFunction();
-b = 10;
+b = 10; // 'b' is not defined
 
 /*eslint no-unused-vars: "error"*/
 var x = 10; // "x" is defined but never used
@@ -19,5 +18,5 @@ class A {
 
 /*eslint no-undefined: "error"*/
 if (foo === undefined) {
-    // ...
+    // Use `typeof foo === undefined` instead.
 }
