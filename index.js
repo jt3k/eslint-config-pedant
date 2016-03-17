@@ -66,7 +66,6 @@ module.exports = {
             functions: false,
             classes: true
         }],
-        'no-undefined': 'error',
 
         // Shadow variables
         'no-catch-shadow': 'error',
