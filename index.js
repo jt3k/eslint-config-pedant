@@ -43,8 +43,8 @@ module.exports = {
         'no-extra-boolean-cast': 'error',
 
         // Extra Characters
-        'comma-dangle': ['warn', 'never'],
-        'no-extra-semi': 'warn',
+        'comma-dangle': ['error', 'never'],
+        'no-extra-semi': 'error',
 
         // JSDoc
         'valid-jsdoc': ['error', {
