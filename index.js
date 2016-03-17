@@ -44,7 +44,6 @@ module.exports = {
 
         // Extra Characters
         'comma-dangle': ['warn', 'never'],
-        'no-extra-parens': 'warn',
         'no-extra-semi': 'warn',
 
         // JSDoc

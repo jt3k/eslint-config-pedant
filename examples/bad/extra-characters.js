@@ -7,6 +7,3 @@ var obj = {
 
 /*eslint no-extra-semi: "warn"*/
 var x = 5;; // The second semicolon is unnecessary.
-
-/*eslint no-extra-parens: "warn"*/
-var f = (function () { return 1; }); // It is not necessary to wrap the function.
