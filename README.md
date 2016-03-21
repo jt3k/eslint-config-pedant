@@ -31,6 +31,10 @@ Next, install `eslint-config-pedant`:
 $ npm install eslint-config-pedant --save-dev
 ```
 
+**Note**: If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-config-pedant` globally.
+
+A globally-installed instance of ESLint can only use globally-installed ESLint plugins. A locally-installed ESLint can make use of both locally- and globally- installed ESLint plugins.
+
 Usage
 -----
 
