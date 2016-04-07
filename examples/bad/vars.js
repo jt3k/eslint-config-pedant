@@ -18,5 +18,5 @@ class A {
 
 /*eslint no-undefined: "error"*/
 if (foo === undefined) {
-    // Use `typeof foo === undefined` instead.
+    // Use `typeof foo === 'undefined'` instead.
 }
