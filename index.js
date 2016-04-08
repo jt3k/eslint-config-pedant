@@ -72,6 +72,12 @@ module.exports = {
         'no-shadow': 'error',
         'no-shadow-restricted-names': 'error',
 
+        /* Node.js and CommonJS ================================================================ */
+        /* http://eslint.org/docs/rules/#nodejs-and-commonjs
+        /* ===================================================================================== */
+
+        'no-new-require': 'error',
+
         /* Best Practices ====================================================================== */
         /* http://eslint.org/docs/rules/#best-practices                                          */
         /* ===================================================================================== */
