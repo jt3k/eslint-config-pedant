@@ -1,6 +1,26 @@
 Changelog
 =========
 
+v0.3.0 (2016-04-12)
+-------------------
+
+### Rules
+
+Add ES 2015 rules:
+
+* [constructor-super](http://eslint.org/docs/rules/constructor-super)
+* [no-this-before-super](http://eslint.org/docs/rules/no-this-before-super)
+* [no-dupe-class-members](http://eslint.org/docs/rules/no-dupe-class-members)
+* [no-class-assign](http://eslint.org/docs/rules/no-class-assign)
+* [no-const-assign](http://eslint.org/docs/rules/no-const-assign)
+* [no-new-symbol](http://eslint.org/docs/rules/no-new-symbol)
+* [require-yield](http://eslint.org/docs/rules/require-yield)
+
+### Commits
+
+* [[`f802a06015`](https://github.com/blond/eslint-config-pedant/commit/f802a06015)] - **examples**: add examples for es6 rules (blond)
+* [[`9baed3645e`](https://github.com/blond/eslint-config-pedant/commit/9baed3645e)] - **rules**: add es6 rules (blond)
+
 v0.2.0 (2016-03-08)
 -------------------
 
