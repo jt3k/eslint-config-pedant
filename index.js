@@ -21,6 +21,7 @@ module.exports = {
         // Overwrite
         'no-ex-assign': 'error',
         'no-func-assign': 'error',
+        'no-unsafe-finally': 'error',
 
         // JS Oddities
         'use-isnan': 'error',
