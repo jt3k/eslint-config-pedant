@@ -74,7 +74,7 @@ This config intentionally does not limit your choice of code style.
 
 If you want to check code style of your my code you can add [stylistic rules](http://eslint.org/docs/rules/#stylistic-issues) to your config in your project.
 
-But better pay attention to the [JSCS](http://jscs.info/) linter/formatter. In my opinion this tool is more convenient for linting your code style.
+Also, you can create your own [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) or use one of the existing.
 
 License
 -------
