@@ -1,12 +1,27 @@
 Changelog
 =========
 
+v0.4.0 (2016-05-05)
+-------------------
+
+### Rules
+
+* Added the [no-unsafe-finally](http://eslint.org/docs/rules/no-unsafe-finally) rule.
+
+### Commits
+
+* [[`75f4c00867`](https://github.com/blond/eslint-config-pedant/commit/75f4c00867)] - **docs**: add example for `no-unsafe-finally` rule (blond)
+* [[`e3999c0860`](https://github.com/blond/eslint-config-pedant/commit/e3999c0860)] - **feat**: add `no-unsafe-finally` rule (blond)
+* [[`30e9caa767`](https://github.com/blond/eslint-config-pedant/commit/30e9caa767)] - **docs**: update question about stylistic rules (blond)
+* [[`a70ed61d34`](https://github.com/blond/eslint-config-pedant/commit/a70ed61d34)] - chore(package): update eslint to version 2.9.0 (greenkeeperio-bot)
+* [[`43b454df9d`](https://github.com/blond/eslint-config-pedant/commit/43b454df9d)] - chore(package): update eslint to version 2.8.0 (greenkeeperio-bot)
+
 v0.3.0 (2016-04-12)
 -------------------
 
 ### Rules
 
-Add ES 2015 rules:
+Added ES 2015 rules:
 
 * [constructor-super](http://eslint.org/docs/rules/constructor-super)
 * [no-this-before-super](http://eslint.org/docs/rules/no-this-before-super)
