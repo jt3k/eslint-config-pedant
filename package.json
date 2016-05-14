@@ -16,7 +16,9 @@
     "commonjs",
     "best",
     "practices",
-    "es",
+    "es6",
+    "es5",
+    "es3",
     "js",
     "lint"
   ],
