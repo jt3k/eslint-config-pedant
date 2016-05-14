@@ -1,6 +1,36 @@
 Changelog
 =========
 
+v0.5.0 (2016-05-15)
+-------------------
+
+### ECMAScript 3 & 5
+
+Added shareable configs for `ECMAScript 3` and `ECMAScript 5` ([#16], [#19]).
+
+Read more in [ECMAScript](./README.md#ecmascript) section.
+
+### Rules
+
+Removed [comma-dangle](http://eslint.org/docs/rules/no-unsafe-finally) rule for `es6` and `es5` configs ([#14], [#19]).
+
+### Dependencies
+
+Now `eslint-config-pedant` requires `eslint` version `2.9.0` or more ([#20]).
+
+[#14]: https://github.com/blond/eslint-config-pedant/issues/14
+[#16]: https://github.com/blond/eslint-config-pedant/issues/16
+[#19]: https://github.com/blond/eslint-config-pedant/pull/19
+[#20]: https://github.com/blond/eslint-config-pedant/pull/20
+
+### Commits
+
+- [[`1ec3a8a`](https://github.com/blond/eslint-config-pedant/commit/1ec3a8a61885e5f9b0ea691cf3245793c2921ffd)] -  chore(package): specify eslint as peer dependency (@blond)
+- [[`7fc57d2`](https://github.com/blond/eslint-config-pedant/commit/7fc57d2bb26262a6d658c3a9352054c09433e1e6)] -  docs: add section about ECMAScript versions (@blond)
+- [[`883ea5b`](https://github.com/blond/eslint-config-pedant/commit/883ea5bb5bdd0b62189770be70980a82cf87b945)] -  docs(example): separate example for es3 (@blond)
+- [[`f1e985a`](https://github.com/blond/eslint-config-pedant/commit/f1e985a2846a68730fb8ceeb3d0932fd40f6f27a)] -  feat: add sub configs for es3, es5 and es6 (@blond)
+- [[`4a67e81`](https://github.com/blond/eslint-config-pedant/commit/4a67e81408b0b7eba8525354995e236425333a1d)] -  chore(package): update eslint to version 2.10.1 (@greenkeeperio-bot)
+
 v0.4.0 (2016-05-05)
 -------------------
 
@@ -10,11 +40,11 @@ v0.4.0 (2016-05-05)
 
 ### Commits
 
-* [[`75f4c00867`](https://github.com/blond/eslint-config-pedant/commit/75f4c00867)] - **docs**: add example for `no-unsafe-finally` rule (blond)
-* [[`e3999c0860`](https://github.com/blond/eslint-config-pedant/commit/e3999c0860)] - **feat**: add `no-unsafe-finally` rule (blond)
-* [[`30e9caa767`](https://github.com/blond/eslint-config-pedant/commit/30e9caa767)] - **docs**: update question about stylistic rules (blond)
-* [[`a70ed61d34`](https://github.com/blond/eslint-config-pedant/commit/a70ed61d34)] - chore(package): update eslint to version 2.9.0 (greenkeeperio-bot)
-* [[`43b454df9d`](https://github.com/blond/eslint-config-pedant/commit/43b454df9d)] - chore(package): update eslint to version 2.8.0 (greenkeeperio-bot)
+* [[`75f4c00`](https://github.com/blond/eslint-config-pedant/commit/75f4c00867)] - docs: add example for `no-unsafe-finally` rule (@blond)
+* [[`e3999c0`](https://github.com/blond/eslint-config-pedant/commit/e3999c0860)] - feat: add `no-unsafe-finally` rule (@blond)
+* [[`30e9caa`](https://github.com/blond/eslint-config-pedant/commit/30e9caa767)] - docs: update question about stylistic rules (@blond)
+* [[`a70ed61`](https://github.com/blond/eslint-config-pedant/commit/a70ed61d34)] - chore(package): update eslint to version 2.9.0 (@greenkeeperio-bot)
+* [[`43b454d`](https://github.com/blond/eslint-config-pedant/commit/43b454df9d)] - chore(package): update eslint to version 2.8.0 (@greenkeeperio-bot)
 
 v0.3.0 (2016-04-12)
 -------------------
@@ -33,8 +63,8 @@ Added ES 2015 rules:
 
 ### Commits
 
-* [[`f802a06015`](https://github.com/blond/eslint-config-pedant/commit/f802a06015)] - **examples**: add examples for es6 rules (blond)
-* [[`9baed3645e`](https://github.com/blond/eslint-config-pedant/commit/9baed3645e)] - **rules**: add es6 rules (blond)
+* [[`f802a06`](https://github.com/blond/eslint-config-pedant/commit/f802a06015)] - examples: add examples for es6 rules (blond)
+* [[`9baed36`](https://github.com/blond/eslint-config-pedant/commit/9baed3645e)] - rules: add es6 rules (blond)
 
 v0.2.0 (2016-03-08)
 -------------------
@@ -45,14 +75,14 @@ v0.2.0 (2016-03-08)
 
 ### Commits
 
-* [[`938f82e6ca`](https://github.com/blond/eslint-config-pedant/commit/938f82e6ca)] - update npm scripts (blond)
-* [[`b8add01ac5`](https://github.com/blond/eslint-config-pedant/commit/b8add01ac5)] - **npm**: update keywords (blond)
-* [[`9cfe57c502`](https://github.com/blond/eslint-config-pedant/commit/9cfe57c502)] - **examples**: add example for `no-new-requir` rule (blond)
-* [[`8d43a722ae`](https://github.com/blond/eslint-config-pedant/commit/8d43a722ae)] - **rules**: add `no-new-require` rule (blond)
-* [[`2cbcb02186`](https://github.com/blond/eslint-config-pedant/commit/2cbcb02186)] - **examples**: remove `no-undefined` rule (blond)
-* [[`904bc94421`](https://github.com/blond/eslint-config-pedant/commit/904bc94421)] - **examples**: fix `comma-dangle` rule (blond)
-* [[`929c79c5a5`](https://github.com/blond/eslint-config-pedant/commit/929c79c5a5)] - **docs**: fix to no-undefined rule in bad examples (Aleksey Guryanov)
-* [[`8f27afcca0`](https://github.com/blond/eslint-config-pedant/commit/8f27afcca0)] - chore(package): update eslint to version 2.7.0 (greenkeeperio-bot)
-* [[`13f4aed582`](https://github.com/blond/eslint-config-pedant/commit/13f4aed582)] - chore(package): update eslint to version 2.6.0 (greenkeeperio-bot)
-* [[`1acc399b7b`](https://github.com/blond/eslint-config-pedant/commit/1acc399b7b)] - chore(package): update eslint to version 2.5.3 (greenkeeperio-bot)
-* [[`40c3dbed20`](https://github.com/blond/eslint-config-pedant/commit/40c3dbed20)] - docs(install): update install guide (blond)
+* [[`938f82e`](https://github.com/blond/eslint-config-pedant/commit/938f82e6ca)] - update npm scripts (@blond)
+* [[`b8add01`](https://github.com/blond/eslint-config-pedant/commit/b8add01ac5)] - npm: update keywords (@blond)
+* [[`9cfe57c`](https://github.com/blond/eslint-config-pedant/commit/9cfe57c502)] - examples: add example for `no-new-requir` rule (@blond)
+* [[`8d43a72`](https://github.com/blond/eslint-config-pedant/commit/8d43a722ae)] - rules: add `no-new-require` rule (@blond)
+* [[`2cbcb02`](https://github.com/blond/eslint-config-pedant/commit/2cbcb02186)] - examples: remove `no-undefined` rule (@blond)
+* [[`904bc94`](https://github.com/blond/eslint-config-pedant/commit/904bc94421)] - examples: fix `comma-dangle` rule (@blond)
+* [[`929c79c`](https://github.com/blond/eslint-config-pedant/commit/929c79c5a5)] - docs: fix to no-undefined rule in bad examples (@guria)
+* [[`8f27afc`](https://github.com/blond/eslint-config-pedant/commit/8f27afcca0)] - chore(package): update eslint to version 2.7.0 (@greenkeeperio-bot)
+* [[`13f4aed`](https://github.com/blond/eslint-config-pedant/commit/13f4aed582)] - chore(package): update eslint to version 2.6.0 (@greenkeeperio-bot)
+* [[`1acc399`](https://github.com/blond/eslint-config-pedant/commit/1acc399b7b)] - chore(package): update eslint to version 2.5.3 (@greenkeeperio-bot)
+* [[`40c3dbe`](https://github.com/blond/eslint-config-pedant/commit/40c3dbed20)] - docs(install): update install guide (@blond)
