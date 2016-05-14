@@ -52,6 +52,27 @@ Add this to your `.eslintrc` file:
 
 You can override settings from the shareable config by adding them directly into your `.eslintrc` file.
 
+ECMAScript
+----------
+
+By default rules are suitable for `ECMAScript 6` or higher.
+
+If you are not using `ECMAScript 6`, you can choose the config for `ECMAScript 5`:
+
+```json
+{
+  "extends": "pedant/es5"
+}
+```
+
+Or config for `ECMAScript 3`:
+
+```json
+{
+  "extends": "pedant/es3"
+}
+```
+
 FAQ
 ---
 
