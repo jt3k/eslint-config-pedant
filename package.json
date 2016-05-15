@@ -24,7 +24,11 @@
   ],
   "main": "index.js",
   "files": [
-    "index.js"
+    "lib/**",
+    "index.js",
+    "es3.js",
+    "es5.js",
+    "es6.js"
   ],
   "engines": {
     "node": ">= 0.10"
