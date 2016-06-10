@@ -37,7 +37,7 @@
     "eslint": "^2.9.0"
   },
   "dependencies": {
-    "es6-object-assign": "1.0.1"
+    "es6-object-assign": "1.0.2"
   },
   "devDependencies": {
     "eslint": "^2.9.0"
