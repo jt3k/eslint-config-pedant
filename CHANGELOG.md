@@ -1,6 +1,19 @@
 Changelog
 =========
 
+v0.6.0 (2016-05-15)
+-------------------
+
+### Dependencies
+
+* `eslint` updated to `3.0.0`
+* `es6-object-assign` updated to `1.0.2`
+
+### Commits
+
+- [[`306e379`](https://github.com/blond/eslint-config-pedant/commit/306e379)] - Update eslint to ^3.0.0 (@tadatuta)
+- [[`be5884c`](https://github.com/blond/eslint-config-pedant/commit/be5884c)] - chore(package): update es6-object-assign to version 1.0.2 (@greenkeeperio-bot)
+
 v0.5.0 (2016-05-15)
 -------------------
 
