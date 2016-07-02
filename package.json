@@ -34,13 +34,13 @@
     "node": ">= 0.10"
   },
   "peerDependencies": {
-    "eslint": "^2.9.0"
+    "eslint": "^3.0.0"
   },
   "dependencies": {
     "es6-object-assign": "1.0.2"
   },
   "devDependencies": {
-    "eslint": "^2.9.0"
+    "eslint": "^3.0.0"
   },
   "scripts": {
     "test": "eslint ."
