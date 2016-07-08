@@ -1,7 +1,19 @@
 Changelog
 =========
 
-v0.6.0 (2016-05-15)
+v0.7.0 (2016-07-08)
+-------------------
+
+### Support Node.js
+
+* Drop support for Node.js < 4. (ESLint dropped support in `v3.0.0`).
+
+### Commits
+
+- [[`a7917f2`](https://github.com/blond/eslint-config-pedant/commit/a7917f2)] - chore(travis): run tests in Node.js 6 (@blond)
+- [[`7ded85c`](https://github.com/blond/eslint-config-pedant/commit/7ded85c)] - chore(node): drop support for Node.js < 4 (@blond)
+
+v0.6.0 (2016-06-02)
 -------------------
 
 ### Dependencies
