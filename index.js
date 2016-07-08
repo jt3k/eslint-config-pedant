@@ -1,5 +1,5 @@
 'use strict';
 
-var es6 = require('./es6');
+const es6 = require('./es6');
 
 module.exports = es6;

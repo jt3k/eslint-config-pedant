@@ -31,14 +31,12 @@
     "es6.js"
   ],
   "engines": {
-    "node": ">= 0.10"
+    "node": ">= 4"
   },
   "peerDependencies": {
     "eslint": "^3.0.0"
   },
-  "dependencies": {
-    "es6-object-assign": "1.0.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^3.0.0"
   },
