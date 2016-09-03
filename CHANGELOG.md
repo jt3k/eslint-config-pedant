@@ -1,6 +1,19 @@
 Changelog
 =========
 
+v0.8.0 (2016-09-03)
+-------------------
+
+### Rules
+
+* Added [no-unsafe-negation](http://eslint.org/docs/rules/no-unsafe-negation) rule (@blond [#31]).
+
+[#31]: https://github.com/blond/eslint-config-pedant/pull/31
+
+### Dependencies
+
+* Requires an `eslint` of at least `v3.3.0`.
+
 v0.7.0 (2016-07-08)
 -------------------
 
