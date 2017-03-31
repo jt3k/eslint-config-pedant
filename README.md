@@ -14,6 +14,15 @@ An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-co
 
 ![pedant](https://cloud.githubusercontent.com/assets/2225579/13544540/31939a3a-e288-11e5-8fd2-f6a86190e037.jpg)
 
+Table of Contents
+-----------------
+
+* [Install](#install)
+* [Usage](#usage)
+* [Presets](#presets)
+* [FAQ](#faq)
+* [Semantic Versioning Policy](#semantic-versioning-policy)
+
 Install
 -------
 
