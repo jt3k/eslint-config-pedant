@@ -52,8 +52,10 @@ Add this to your `.eslintrc` file:
 
 You can override settings from the shareable config by adding them directly into your `.eslintrc` file.
 
-ECMAScript
-----------
+Presets
+-------
+
+### ECMAScript
 
 By default rules are suitable for `ECMAScript 6` or higher.
 
