@@ -1,8 +1,8 @@
 /*eslint no-extend-native: "error"*/
 Object.prototype.extra = 55;
 
-/*eslint no-native-reassign: "error"*/
-String = new Object();
+/*eslint no-global-assign: "error"*/
+window = {};
 
 /*eslint no-octal: "error"*/
 // The leading zero to identify an octal literal has been a source of confusion and error in JavaScript.
