@@ -49,7 +49,7 @@ Usage
 
 Shareable configs are designed to work with the `extends` feature of `.eslintrc` files. You can learn more about [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) on the official ESLint website.
 
-Add this to your `.eslintrc` file:
+Add this to your `.eslintrc.json` file:
 
 ```json
 {
@@ -59,7 +59,7 @@ Add this to your `.eslintrc` file:
 
 **Note**: We omitted the `eslint-config-` prefix since it is automatically assumed by ESLint.
 
-You can override settings from the shareable config by adding them directly into your `.eslintrc` file.
+You can override settings from the shareable config by adding them directly into your `.eslintrc.json` file.
 
 Presets
 -------
