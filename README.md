@@ -104,7 +104,7 @@ To make sure that this config is right for you:
 
 This config intentionally does not limit your choice of code style.
 
-If you want to check code style of your my code you can add [stylistic rules](http://eslint.org/docs/rules/#stylistic-issues) to your config in your project.
+If you want to check code style of your code you can add [stylistic rules](http://eslint.org/docs/rules/#stylistic-issues) to your config in your project.
 
 Also, you can create your own [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) or use one of the existing.
 
