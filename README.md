@@ -26,7 +26,7 @@ Table of Contents
 Install
 -------
 
-You'll first need to install `ESLint`:
+You'll first need to install ESLint:
 
 ```
 $ npm install eslint --save-dev
