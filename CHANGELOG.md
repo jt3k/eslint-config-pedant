@@ -1,6 +1,29 @@
 Changelog
 =========
 
+v0.8.1 (2017-04-09)
+-------------------
+
+### Rules
+
+* Removed deprecated rules: [no-native-reassign] and [no-negated-in-lhs] (@blond [#41])
+* Turned off `requireParamDescription` option in [valid-jsdoc] rule (@blond [#42])
+
+[no-native-reassign]: http://eslint.org/docs/rules/no-native-reassign
+[no-negated-in-lhs]: http://eslint.org/docs/rules/no-negated-in-lhs
+[valid-jsdoc]: http://eslint.org/docs/rules/valid-jsdoc
+
+[#41]: https://github.com/blond/eslint-config-pedant/pull/41
+[#42]: https://github.com/blond/eslint-config-pedant/pull/42
+
+### Documentation
+
+* Added [Semantic Versioning Policy] (@blond [#44])
+
+[#44]: https://github.com/blond/eslint-config-pedant/pull/44
+
+[Semantic Versioning Policy]: README.md#semantic-versioning-policy
+
 v0.8.0 (2016-09-03)
 -------------------
 
