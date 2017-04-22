@@ -28,7 +28,7 @@ v0.9.0 (2017-04-22)
 
 ### Other
 
-* Renamed the `es6` preset to `es2015` preset (@blond [#50]).
+* Renamed the `es6` preset to `es2015` (@blond [#50]).
 
 [#50]: https://github.com/blond/eslint-config-pedant/pull/50
 
