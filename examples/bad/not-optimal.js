@@ -53,3 +53,6 @@ var truth = true;
 if (!!truth) { // This variable already coerced to a Boolean.
     // ...
 }
+
+/*eslint no-useless-computed-key: "error"*/
+var a = { ['0']: 0 }; // It’s unnecessary to use computed properties with literals such as.
