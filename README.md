@@ -66,9 +66,9 @@ Presets
 
 ### ECMAScript
 
-By default rules are suitable for `ECMAScript 6` or higher.
+By default rules are suitable for `ECMAScript 2015` or higher.
 
-If you are not using `ECMAScript 6`, you can choose the config for `ECMAScript 5`:
+If you are not using `ECMAScript 2015`, you can choose the config for `ECMAScript 5`:
 
 ```json
 {
