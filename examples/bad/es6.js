@@ -37,3 +37,14 @@ var foo = new Symbol('foo'); // The Symbol constructor is not intended to be use
 function* foo() {
     return 10; // This generator functions that do not have the `yield` keyword.
 }
+
+/*eslint class-methods-use-this: "error"*/
+class A {
+    constructor() {
+        this.a = "hi";
+    }
+
+    sayHi() {
+        console.log("hi"); // The sayHi method doesn’t use this, so we can make it a static method.
+    }
+}
