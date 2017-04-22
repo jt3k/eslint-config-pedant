@@ -1,6 +1,37 @@
 Changelog
 =========
 
+v0.9.0 (2017-04-22)
+-------------------
+
+### Common Rules
+
+* Added the [no-extra-bind] rule (@blond [#46]).
+* Added the [no-useless-escape] rule (@blond [#49]).
+
+[no-extra-bind]: http://eslint.org/docs/rules/no-extra-bind
+[no-useless-escape]: http://eslint.org/docs/rules/no-useless-escape
+
+[#46]: https://github.com/blond/eslint-config-pedant/pull/46
+[#49]: https://github.com/blond/eslint-config-pedant/pull/49
+
+### ES2015 Rules
+
+* Added the [class-methods-use-this] rule to `es2015` preset (@blond [#47]). 
+* Added the [no-useless-computed-key] rule to `es2015` preset (@blond [#48]).
+
+[class-methods-use-this]: http://eslint.org/docs/rules/class-methods-use-this
+[no-useless-computed-key]: http://eslint.org/docs/rules/no-useless-computed-key
+
+[#47]: https://github.com/blond/eslint-config-pedant/pull/47
+[#48]: https://github.com/blond/eslint-config-pedant/pull/48
+
+### Other
+
+* Renamed the `es6` preset to `es2015` preset (@blond [#50]).
+
+[#50]: https://github.com/blond/eslint-config-pedant/pull/50
+
 v0.8.1 (2017-04-09)
 -------------------
 
