@@ -12,3 +12,6 @@ var pattern3 = /^abc[]/;  // Empty character classes in regular expressions do n
 
 /*eslint no-invalid-regexp: ["error", {"allowConstructorFlags": ["u", "y"]}]*/
 var pattern4 = new RegExp('\\');
+
+/*eslint no-useless-escape: "error"*/
+"\'";
