@@ -10,7 +10,7 @@ An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-co
 [npm-img]:      https://img.shields.io/npm/v/eslint-config-pedant.svg
 
 [travis]:       https://travis-ci.org/blond/eslint-config-pedant
-[test-img]:     https://img.shields.io/travis/blond/eslint-config-pedant.svg?label=tests
+[test-img]:     https://img.shields.io/travis/blond/eslint-config-pedant/master.svg?label=tests
 
 ![pedant](https://cloud.githubusercontent.com/assets/2225579/13544540/31939a3a-e288-11e5-8fd2-f6a86190e037.jpg)
 
